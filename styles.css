@@ -1,0 +1,104 @@
+h1 {
+  color: rgb(255, 255, 255);
+}
+.title {
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+}
+
+/* p {
+  color: blue;
+  background-color: orange;
+}
+p {
+  color: teal;
+} */
+
+p {
+  color: green;
+}
+article > p {
+  color: orange;
+}
+
+.post-title {
+  color: green;
+}
+.post > .post-title {
+  color: orange;
+}
+
+a.post-link {
+  color: blue;
+}
+.post > .post-link {
+  color: red;
+}
+.post > a.post-link {
+  color: brown;
+}
+
+.post-title {
+  color: green;
+}
+#title {
+  color: orange;
+}
+
+/*! 1 підхід */
+.post {
+  /* Стилі статті */
+}
+.post > h1 {
+  /* Стилі заголовка */
+}
+.post > p {
+  /* Стилі тексту */
+}
+.post > a {
+  /* Стилі посилання */
+}
+.post > a:hover {
+  /* Стилі посилання при ховері */
+}
+
+/*! 2 підхід */
+.post {
+  /* Стилі статті */
+}
+.post > .title {
+  /* Стилі заголовка */
+}
+.post > .text {
+  /* Стилі тексту */
+}
+.post > .link {
+  /* Стилі посилання */
+}
+.post > .link:hover {
+  /* Стилі посилання при ховері */
+}
+
+/*! 3 підхід */
+.post {
+  /* Стилі статті */
+}
+.post-title {
+  /* Стилі заголовка */
+}
+.post-text {
+  /* Стилі тексту */
+}
+.post-link {
+  /* Стилі посилання */
+}
+.post-link:hover {
+  /* Стилі посилання при ховері */
+}
+
+p {
+  color: orange !important;
+}
+p#text-id.text {
+  color: blue ;
+}
